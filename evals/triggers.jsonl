@@ -1,0 +1,27 @@
+{"skill": "ui-ux-designer", "type": "obvious", "query": "Help me design the checkout flow for our mobile app"}
+{"skill": "ui-ux-designer", "type": "paraphrase", "query": "We need the screens for buying something on a phone, laid out so people can finish it quickly"}
+{"skill": "ui-ux-designer", "type": "unrelated", "query": "Write a Python script that parses a CSV of invoices"}
+{"skill": "mobile-ux-foundations", "type": "obvious", "query": "How should I prioritise features and reduce clutter in my mobile app?"}
+{"skill": "mobile-ux-foundations", "type": "paraphrase", "query": "Our app tries to do too much and people get lost. Where do we start before drawing screens?"}
+{"skill": "mobile-ux-foundations", "type": "unrelated", "query": "Create a Dockerfile for a Django app"}
+{"skill": "adaptive-layout-and-spacing", "type": "obvious", "query": "What breakpoints and size classes should I use for phone, tablet and desktop?"}
+{"skill": "adaptive-layout-and-spacing", "type": "paraphrase", "query": "My screen design breaks when rotated and when text is enlarged. How should the layout respond?"}
+{"skill": "adaptive-layout-and-spacing", "type": "unrelated", "query": "Set up a Celery task for sending emails"}
+{"skill": "navigation-and-flows", "type": "obvious", "query": "Should I use a hamburger menu or a tab bar for my app navigation?"}
+{"skill": "navigation-and-flows", "type": "paraphrase", "query": "How do I structure the screens and routes so people always know where they are in the app?"}
+{"skill": "navigation-and-flows", "type": "unrelated", "query": "Write unit tests for the payment service"}
+{"skill": "interaction-feedback-and-forms", "type": "obvious", "query": "What should the error messages and validation look like on my form?"}
+{"skill": "interaction-feedback-and-forms", "type": "paraphrase", "query": "People tap the button twice and do not know whether it worked. What should the screen do?"}
+{"skill": "interaction-feedback-and-forms", "type": "unrelated", "query": "Pick a colour palette for my brand"}
+{"skill": "visual-design-system", "type": "obvious", "query": "Help me choose typography, colours and a spacing scale for the app"}
+{"skill": "visual-design-system", "type": "paraphrase", "query": "We need a dark theme and consistent icons and spacing across screens"}
+{"skill": "visual-design-system", "type": "unrelated", "query": "Fix the bug that crashes the login endpoint"}
+{"skill": "accessible-design", "type": "obvious", "query": "Is this screen accessible for VoiceOver and TalkBack users, and are the touch targets big enough?"}
+{"skill": "accessible-design", "type": "paraphrase", "query": "Can people with low vision or shaky hands use this design? Check it"}
+{"skill": "accessible-design", "type": "unrelated", "query": "Write a landing page headline for our product launch"}
+{"skill": "ux-documentation-and-handoff", "type": "obvious", "query": "Document the personas, user flows and style guide for the developers"}
+{"skill": "ux-documentation-and-handoff", "type": "paraphrase", "query": "We need a pack the developers can build from without guessing at states or copy"}
+{"skill": "ux-documentation-and-handoff", "type": "unrelated", "query": "Write a README for the Python scripts folder"}
+{"skill": "ux-review-and-testing", "type": "obvious", "query": "Do a heuristic evaluation of this mobile app flow and rank the problems"}
+{"skill": "ux-review-and-testing", "type": "paraphrase", "query": "Why are people dropping out of our sign-up screens? Help me find out"}
+{"skill": "ux-review-and-testing", "type": "unrelated", "query": "Optimise this SQL query"}

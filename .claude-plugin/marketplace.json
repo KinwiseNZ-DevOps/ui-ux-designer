@@ -1,0 +1,12 @@
+{
+  "name": "ui-ux-designer-marketplace",
+  "owner": { "name": "KinWise Limited" },
+  "description": "Mobile-first UI and UX design skills: UX principles, adaptive layout, navigation, feedback and forms, visual design, accessibility, documentation and review",
+  "plugins": [
+    {
+      "name": "ui-ux-designer",
+      "source": "./",
+      "description": "Mobile-first UI and UX design skills: UX principles, adaptive layout, navigation, feedback and forms, visual design, accessibility, documentation and review"
+    }
+  ]
+}

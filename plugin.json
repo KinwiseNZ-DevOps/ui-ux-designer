@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ui-ux-designer",
+  "version": "0.1.0",
+  "description": "Mobile-first UI and UX design skills: UX principles, adaptive layout, navigation, feedback and forms, visual design, accessibility, documentation and review",
+  "author": {
+    "name": "KinWise Limited"
+  },
+  "repository": "https://github.com/KinwiseNZ-DevOps/ui-ux-designer",
+  "license": "MIT",
+  "keywords": [
+    "agent-skills",
+    "ux",
+    "ui",
+    "mobile",
+    "accessibility"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "UI UX Designer",
+        "shortDescription": "Design and review mobile-first interfaces that also work on tablet and desktop.",
+        "longDescription": "Skills for UX principles, adaptive layout, navigation, feedback and forms, visual design, WCAG 2.2 accessibility, UX documentation and heuristic review, mobile first.",
+        "developerName": "KinWise Limited",
+        "category": "Productivity"
+      }
+    }
+  }
+}

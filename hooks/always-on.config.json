@@ -1,0 +1,18 @@
+{
+  "id": "ui-ux-designer",
+  "name": "UI UX Designer",
+  "phrase": "design",
+  "rules": "skills/ui-ux-designer/references/always-on-rules.md",
+  "defaultMode": "auto",
+  "autoDetect": true,
+  "autoMarkers": [
+    { "file": "pubspec.yaml" },
+    { "file": "package.json", "contains": "react-native" },
+    { "file": "package.json", "contains": "expo" },
+    { "file": "package.json", "contains": "tailwindcss" },
+    { "file": "Package.swift" },
+    { "file": "AndroidManifest.xml" },
+    { "file": "figma.config.json" }
+  ],
+  "features": {}
+}
