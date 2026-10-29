@@ -21,6 +21,7 @@ Stance: frozen are a single source of truth, versioned records, and specs that d
 - Specify behaviour for each size class and for large text. Mechanism: a phone-only spec leaves tablet and desktop to improvisation.
 - Include accessibility annotations: names, reading order, target sizes, contrast pairs. Mechanism: added late they are rarely added at all.
 - Mark timing advice as guidance, not rule. Mechanism: projects vary; the sources give typical order only.
+- Act only on what the user asked. Before answering or changing anything, open the relevant files and check what is already done; report only what you checked, never guess, and do not redo finished work. Reason: guesses and repeated work waste the user's credit.
 
 ## Gate
 

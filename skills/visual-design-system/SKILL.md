@@ -22,6 +22,7 @@ Stance: frozen are legibility, semantic colour roles and consistency with the pl
 - Prefer platform system fonts and colours unless the brand needs otherwise. Mechanism: they adapt to Dynamic Type, Increase Contrast and dark mode for free.
 - Use one spacing scale and one icon style. Mechanism: mixed values read as errors and slow scanning.
 - Avoid light font weights at small sizes. Mechanism: thin strokes disappear first on small, low-resolution or bright screens.
+- Act only on what the user asked. Before answering or changing anything, open the relevant files and check what is already done; report only what you checked, never guess, and do not redo finished work. Reason: guesses and repeated work waste the user's credit.
 
 ## Gate
 

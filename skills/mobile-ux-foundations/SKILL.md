@@ -22,6 +22,7 @@ Stance: frozen are the user's task, real-world constraints and the habit of rese
 - Preserve state across interruptions. Mechanism: phone use is interrupted by calls, lost signal and app switching; losing a half-filled form forces a restart. Save drafts and restore position.
 - Ask for permissions and set-up in context, not on first launch. Mechanism: people agree when they see why; a cold prompt gets a refusal that is hard to undo (Apple HIG onboarding).
 - Do not quote old usage statistics as current. They show scale, not today's numbers.
+- Act only on what the user asked. Before answering or changing anything, open the relevant files and check what is already done; report only what you checked, never guess, and do not redo finished work. Reason: guesses and repeated work waste the user's credit.
 
 ## Gate
 

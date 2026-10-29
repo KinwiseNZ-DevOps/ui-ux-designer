@@ -24,6 +24,7 @@ Stance: frozen are WCAG 2.2 AA as the floor, platform minimums for touch, and no
 - Never use colour, sound, haptics or motion as the only signal. Mechanism: each fails for some users; pair them.
 - Sign-in must not demand memory tests, puzzles or transcription without alternatives (WCAG 3.3.8). Mechanism: cognitive load blocks access; allow paste, password managers and passkeys.
 - State accessibility claims as "meets criterion X at level AA" with the check made; never "fully accessible" or "compliant". Mechanism: conformance needs scope and evidence.
+- Act only on what the user asked. Before answering or changing anything, open the relevant files and check what is already done; report only what you checked, never guess, and do not redo finished work. Reason: guesses and repeated work waste the user's credit.
 
 ## Gate
 

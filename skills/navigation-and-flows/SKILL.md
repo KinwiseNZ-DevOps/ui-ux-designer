@@ -23,6 +23,7 @@ Stance: frozen are visible location, predictable back, and standard gestures. Fl
 - Every gesture needs a visible alternative and must not be the only route. Mechanism: voice, keyboard and switch users cannot swipe; people also do not discover hidden gestures.
 - Show one sheet at a time. Mechanism: stacked sheets lose the user's place.
 - Cancel dismisses, Done confirms, Back steps back. Mechanism: mixed meanings cause lost data or stuck flows.
+- Act only on what the user asked. Before answering or changing anything, open the relevant files and check what is already done; report only what you checked, never guess, and do not redo finished work. Reason: guesses and repeated work waste the user's credit.
 
 ## Gate
 

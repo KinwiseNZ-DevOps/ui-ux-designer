@@ -21,6 +21,7 @@ Stance: frozen are the information hierarchy, the full set of functions on every
 - Respect safe areas and system bars. Mechanism: content under the notch, status bar or gesture bar is unreadable or untappable. Inset content, keep targets out of the gesture inset.
 - Layout must survive large text and 320 CSS px width without two-direction scrolling. Mechanism: WCAG 1.4.10 reflow; fixed-height boxes clip enlarged text.
 - Cap line length on wide screens. Mechanism: lines across a desktop are hard to track; use a readable text width.
+- Act only on what the user asked. Before answering or changing anything, open the relevant files and check what is already done; report only what you checked, never guess, and do not redo finished work. Reason: guesses and repeated work waste the user's credit.
 
 ## Gate
 

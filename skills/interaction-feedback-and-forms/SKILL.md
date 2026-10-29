@@ -24,6 +24,7 @@ Stance: frozen are honest status, recoverable mistakes and optional motion. Flex
 - Do not make people re-enter data, memorise codes or solve puzzles to sign in. Mechanism: WCAG 3.3.7 and 3.3.8; allow paste, password managers and passkeys.
 - Drag and complex gestures need a single tap alternative (WCAG 2.5.7).
 - Motion is brief, purposeful and optional; honour reduce motion. Mechanism: gratuitous motion distracts and can cause discomfort; important information must not rely on it.
+- Act only on what the user asked. Before answering or changing anything, open the relevant files and check what is already done; report only what you checked, never guess, and do not redo finished work. Reason: guesses and repeated work waste the user's credit.
 
 ## Gate
 

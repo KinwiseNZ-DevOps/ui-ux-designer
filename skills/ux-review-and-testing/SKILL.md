@@ -21,6 +21,7 @@ Stance: frozen are evidence for every finding and ranking by impact on the task.
 - Separate observed fact from inference, and say what was not tested. Mechanism: a review of screenshots cannot judge performance, gestures or real-world conditions.
 - Do not invent research, users or numbers. Mechanism: made-up evidence misleads decisions.
 - Judge against the project's own conventions and platform guidance, not personal taste. Mechanism: taste varies; consistency and standards are testable.
+- Act only on what the user asked. Before answering or changing anything, open the relevant files and check what is already done; report only what you checked, never guess, and do not redo finished work. Reason: guesses and repeated work waste the user's credit.
 
 ## Gate
 
