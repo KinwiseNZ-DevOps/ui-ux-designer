@@ -35,6 +35,7 @@ Table of contents:
 - [Usage](#usage)
 - [Validate](#validate)
 - [Layout](#layout)
+- [Works with other repos](#works-with)
 - [Status and limits](#status-and-limits)
 
 ---
@@ -214,6 +215,13 @@ templates/                  local skill scaffolding; ignored and kept off GitHub
 ```
 
 </details>
+
+---
+
+<a id="works-with"></a>
+## 🤝 Works with other repos
+
+Design depends on the brand and on what can be built. It combines the marketing, writing, back-end and front-end repos. Decision order: marketing first (who it is for, how it is marketed, the words and claims), then look and feel, then the technical work. Decide the human side before the technical side. See the Works with other repos section of the router skill for when to hand off. The dependency map is `skills-repos-dependency-map.md` beside the repos.
 
 ---
 

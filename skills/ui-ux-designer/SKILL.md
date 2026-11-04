@@ -81,6 +81,22 @@ Result: the clean look is kept and the touch target stays usable.
 - **Two skills seem to apply.** Cause: the task spans topics. Fix: split it and apply each skill to its part.
 - **Advice conflicts with the project's design system.** Cause: these skills are generic. Fix: the project's system wins; note the difference once.
 
+## Works with other repos
+
+Design depends on the brand and on what can be built. It combines the marketing, writing, back-end and front-end repos. Decision order: marketing first (who it is for, how it is marketed, the words and claims), then look and feel, then the technical work. Decide the human side before the technical side.
+
+| Repo or skill | Relationship | Hand off when |
+|---|---|---|
+| kinwise-marketing | This repo depends on it | Before designing anything: audience, positioning, voice, brand rules and the claims the screen may make. Start here, not with layout. |
+| ai-kiwiniser | This repo depends on it | Labels, help text, errors and empty states need plain New Zealand English a 16-year-old can follow. |
+| django-api-architect | This repo depends on it | A design needs data or behaviour the server may not offer. Describe the need and check what the API can give; do not design around an invented field. |
+| flutter-developer | This repo depends on it (mobile) | Check that a mobile design can be built, and how, before handing it over. |
+| frontend-developer | This repo depends on it (web) | Check that a web design can be built, and how. Use this or flutter-developer, whichever matches the platform. |
+
+If a companion plugin is not installed, say the hand-off was skipped. Never edit another repo's code or rules from here.
+
+The full map is in `skills-repos-dependency-map.md` beside the repos.
+
 ## Always on mode
 
 A start-up hook adds [always-on-rules.md](references/always-on-rules.md) to Claude Code sessions in matching projects. It is the single source of those rules, so edit it, not a copy. Say "stop design mode" to pause it. The README covers the saved mode and the safety checks.
