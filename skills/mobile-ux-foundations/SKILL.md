@@ -21,6 +21,7 @@ Stance: frozen are the user's task, real-world constraints and the habit of rese
 - Remove before adding. Mechanism: clutter hides the core task; cut every element that does not help the main goal, but never hide something users need to finish the task.
 - Preserve state across interruptions. Mechanism: phone use is interrupted by calls, lost signal and app switching; losing a half-filled form forces a restart. Save drafts and restore position.
 - Ask for permissions and set-up in context, not on first launch. Mechanism: people agree when they see why; a cold prompt gets a refusal that is hard to undo (Apple HIG onboarding).
+- Design onboarding to earn trust in under two minutes. Mechanism: a 2017 Clutch study found most users judge whether to keep an app within about two minutes of starting onboarding; Hick's Law holds that decision time rises with the number of choices offered, so a long or choice-heavy first run loses people before the product has shown its value.
 - Do not quote old usage statistics as current. They show scale, not today's numbers.
 - Act only on what the user asked. Before answering or changing anything, open the relevant files and check what is already done; report only what you checked, never guess, and do not redo finished work. Reason: guesses and repeated work waste the user's credit.
 

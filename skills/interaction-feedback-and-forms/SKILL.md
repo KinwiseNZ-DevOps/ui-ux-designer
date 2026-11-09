@@ -24,6 +24,8 @@ Stance: frozen are honest status, recoverable mistakes and optional motion. Flex
 - Do not make people re-enter data, memorise codes or solve puzzles to sign in. Mechanism: WCAG 3.3.7 and 3.3.8; allow paste, password managers and passkeys.
 - Drag and complex gestures need a single tap alternative (WCAG 2.5.7).
 - Motion is brief, purposeful and optional; honour reduce motion. Mechanism: gratuitous motion distracts and can cause discomfort; important information must not rely on it.
+- A wait always communicates something, even silence. Mechanism: Nielsen's response-time thresholds (0.1 s feels instant, no feedback needed; 1 s is the limit before people notice but their train of thought holds, feedback optional; past 10 s people's attention wanders and a progress indicator or time estimate becomes necessary) set when an indicator is required, not optional polish. An unexplained long wait reads as the product being unreliable even when the delay is normal.
+- When a wait is long or its length varies (a report, an export, anything generated rather than fetched), say why it is taking time, not just that it is. Mechanism: a bare spinner with no explanation is read as doubt about whether the request worked at all; a short reason ("Preparing your export...") keeps trust through the delay.
 - Act only on what the user asked. Before answering or changing anything, open the relevant files and check what is already done; report only what you checked, never guess, and do not redo finished work. Reason: guesses and repeated work waste the user's credit.
 
 ## Gate
@@ -33,8 +35,10 @@ Stance: frozen are honest status, recoverable mistakes and optional motion. Flex
 | Info that needs no action | Passive inline status, not an alert |
 | Undoable destructive action | Do it and offer undo |
 | Irreversible, uncommon destructive action | Confirmation with a clearly named destructive button |
-| Wait under about a second | No indicator needed |
-| Longer wait | Skeleton or placeholder, and progress when length is known |
+| Wait under 0.1 s | No indicator needed; feels instant |
+| Wait 0.1-1 s | Indicator optional; the interaction still feels continuous |
+| Wait 1-10 s | Skeleton or placeholder, plus a determinate progress bar when length is known, a spinner when it is not |
+| Wait over 10 s | Progress or a time estimate is required, not optional; say why it is taking time |
 
 ## Steps
 
@@ -42,7 +46,7 @@ Stance: frozen are honest status, recoverable mistakes and optional motion. Flex
 2. **Define states** for each control: default, pressed, focused, disabled (with a reason), loading, success, error.
 3. **Design forms.** One column, labels above, fields sized to content, only required fields, defaults filled, correct keyboard type, autofill hints, secure fields for secrets, a single clear primary button.
 4. **Write messages.** Inline error beside the field plus a summary for long forms; specific titles; neutral tone; one action.
-5. **Design the empty, loading and error screens.** Say why it is empty and offer the next action; show skeletons while loading; offer retry with preserved data on failure.
+5. **Design the empty, loading and error screens.** Say why it is empty and offer the next action; pick the loading pattern by expected length (see the Gate table); for a wait over 10 s or one of variable length, say what is happening, not only that something is; offer retry with preserved data on failure.
 6. **Add motion sparingly.** Short transitions that explain where things came from; no animation on frequent actions; provide reduce motion version.
 7. **Verify** with a slow network, no network, a screen reader and large text.
 
@@ -54,6 +58,7 @@ Stance: frozen are honest status, recoverable mistakes and optional motion. Flex
 - [ ] Labels visible; keyboard types set; validation timing chosen
 - [ ] Errors say what, why and fix; data preserved
 - [ ] Empty, loading and error states written
+- [ ] Loading pattern matches wait length; waits over 10 s or of variable length explain why
 - [ ] Motion short, optional, reduce motion handled
 ```
 
@@ -77,4 +82,4 @@ Result: interruptions reserved for what needs a decision.
 
 ## Next
 
-[visual-design-system](../visual-design-system/SKILL.md) for how states look; [accessible-design](../accessible-design/SKILL.md) to check names, focus and contrast.
+[visual-design-system](../visual-design-system/SKILL.md) for how states look; [accessible-design](../accessible-design/SKILL.md) to check names, focus and contrast; [ai-interface-design](../ai-interface-design/SKILL.md) when the wait is for an AI-generated result, where length is often unpredictable and the content itself needs a way to be checked.

@@ -21,7 +21,7 @@
 
 [![Validate skills](https://github.com/KinwiseNZ-DevOps/ui-ux-designer/actions/workflows/validate.yml/badge.svg)](https://github.com/KinwiseNZ-DevOps/ui-ux-designer/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Agent skills](https://img.shields.io/badge/agent_skills-9-8A2BE2)](https://agentskills.io)
+[![Agent skills](https://img.shields.io/badge/agent_skills-10-8A2BE2)](https://agentskills.io)
 [![Format](https://img.shields.io/badge/format-SKILL.md-orange)](https://agentskills.io/specification)
 [![Tooling](https://img.shields.io/badge/tooling-stdlib_only-success)](scripts/skills_tool.py)
 
@@ -55,6 +55,7 @@ These skills help an agent design, review and document interfaces for phones fir
 |---|---|
 | [`accessible-design`](skills/accessible-design/SKILL.md) | Do not use for general visual styling (visual-design-system), legal compliance claims, or writing accessibility code for a framework. |
 | [`adaptive-layout-and-spacing`](skills/adaptive-layout-and-spacing/SKILL.md) | Covers hierarchy, grouping, safe areas, edge-to-edge, size classes and reflow. |
+| [`ai-interface-design`](skills/ai-interface-design/SKILL.md) | Covers prompt input design, trust and verifiability of AI output, waiting states for nondeterministic latency, and agentic interface patterns (plan visibility, shared control). |
 | [`interaction-feedback-and-forms`](skills/interaction-feedback-and-forms/SKILL.md) | Do not use for navigation structure (navigation-and-flows), colour and type (visual-design-system) or a full accessibility audit (accessible-design). |
 | [`mobile-ux-foundations`](skills/mobile-ux-foundations/SKILL.md) | Covers research first, one primary action, feature prioritisation, mobile constraints (interruptions, one hand, weak signal) and onboarding. |
 | [`navigation-and-flows`](skills/navigation-and-flows/SKILL.md) | Do not use for form fields and messages (interaction-feedback-and-forms), screen spacing (adaptive-layout-and-spacing) or documenting site maps (ux-documentation-and-handoff). |
@@ -78,6 +79,7 @@ flowchart TD
     R --> I["💬 interaction-feedback-and-forms<br/>feedback, forms, states, motion"]
     R --> V["🎨 visual-design-system<br/>type, colour, dark mode, tokens"]
     R --> A["♿ accessible-design<br/>targets, contrast, WCAG 2.2"]
+    R --> AI["🤖 ai-interface-design<br/>prompt input, trust, latency, agentic UX"]
     R --> D["📝 ux-documentation-and-handoff<br/>personas, specs, hand-off"]
     R --> T["✅ ux-review-and-testing<br/>heuristics, usability tests"]
 ```

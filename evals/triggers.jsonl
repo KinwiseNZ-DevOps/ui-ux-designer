@@ -25,3 +25,6 @@
 {"skill": "ux-review-and-testing", "type": "obvious", "query": "Do a heuristic evaluation of this mobile app flow and rank the problems"}
 {"skill": "ux-review-and-testing", "type": "paraphrase", "query": "Why are people dropping out of our sign-up screens? Help me find out"}
 {"skill": "ux-review-and-testing", "type": "unrelated", "query": "Optimise this SQL query"}
+{"skill": "ai-interface-design", "type": "obvious", "query": "Design the input box and output states for our new AI chat assistant"}
+{"skill": "ai-interface-design", "type": "paraphrase", "query": "Our copilot feature takes ages to respond and people don't trust the suggestions it gives, how should that look and feel"}
+{"skill": "ai-interface-design", "type": "unrelated", "query": "Fine-tune a model on our support ticket dataset"}

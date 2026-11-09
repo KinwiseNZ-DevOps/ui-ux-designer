@@ -19,7 +19,7 @@ Stance: frozen are evidence for every finding and ranking by impact on the task.
 - Rank by effect on the task: blocks the task, causes errors or confusion, cosmetic. Mechanism: a flat list buries the one problem that stops users.
 - Review at phone size and a large size, with large text and a screen reader pass. Mechanism: a review at one size misses reflow, reach and naming faults.
 - Separate observed fact from inference, and say what was not tested. Mechanism: a review of screenshots cannot judge performance, gestures or real-world conditions.
-- Do not invent research, users or numbers. Mechanism: made-up evidence misleads decisions.
+- Do not invent research, users or numbers. Mechanism: made-up evidence misleads decisions. This includes AI-simulated personas or AI-generated usability predictions: a model can describe how a plausible user might react, but it has not observed anyone, so its output can inform what to test, never replace testing it.
 - Judge against the project's own conventions and platform guidance, not personal taste. Mechanism: taste varies; consistency and standards are testable.
 - Act only on what the user asked. Before answering or changing anything, open the relevant files and check what is already done; report only what you checked, never guess, and do not redo finished work. Reason: guesses and repeated work waste the user's credit.
 
@@ -31,6 +31,7 @@ Stance: frozen are evidence for every finding and ranking by impact on the task.
 | Working build or prototype | Walk the flows with tasks |
 | Need to know why users fail | Plan a usability test; an expert review cannot replace it |
 | Request to "just approve it" | Give findings or state none found and what was checked |
+| AI drafted the research, persona or findings being reviewed | Treat them as a starting hypothesis; verify against real users or real recordings before they inform a ranking |
 
 ## Steps
 

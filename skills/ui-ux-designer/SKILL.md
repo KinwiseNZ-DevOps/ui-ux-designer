@@ -47,6 +47,7 @@ Reason: UI problems usually trace to an unclear task or a missing state. A broad
    - Feedback, alerts, forms, loading, empty and error states, motion: [interaction-feedback-and-forms](../interaction-feedback-and-forms/SKILL.md)
    - Type, colour, dark mode, icons, spacing scale, tokens: [visual-design-system](../visual-design-system/SKILL.md)
    - Touch targets, contrast, text scaling, screen readers, WCAG 2.2: [accessible-design](../accessible-design/SKILL.md)
+   - AI chat, copilot, assistant or agent features: prompt input, output trust, latency, plan visibility: [ai-interface-design](../ai-interface-design/SKILL.md)
    - Personas, flows, wireframes, style guides, specs, hand-off: [ux-documentation-and-handoff](../ux-documentation-and-handoff/SKILL.md)
    - Heuristic review, usability tests, findings reports: [ux-review-and-testing](../ux-review-and-testing/SKILL.md)
 3. **Design or review** the smallest useful slice, mobile first, in the project's own idiom.

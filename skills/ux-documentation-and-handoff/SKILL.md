@@ -18,6 +18,7 @@ Stance: frozen are a single source of truth, versioned records, and specs that d
 - Use real copy, not placeholders, with notes on when each message appears. Mechanism: lorem ipsum hides length and tone problems, and developers end up writing copy.
 - Keep one living set of documents with version history. Mechanism: stale copies in chat and email lead to building the wrong version.
 - Record the reason for each decision. Mechanism: later changes can be checked against the original intent.
+- Label an AI-drafted persona, insight or research summary as a hypothesis to validate, not a finding, until a real user has confirmed it. Mechanism: a generative tool can draft a plausible-sounding persona or synthesise a convincing theme from notes, but it has not observed anyone; documenting it as settled fact lets an unvalidated guess quietly become the brief everyone designs against.
 - Specify behaviour for each size class and for large text. Mechanism: a phone-only spec leaves tablet and desktop to improvisation.
 - Include accessibility annotations: names, reading order, target sizes, contrast pairs. Mechanism: added late they are rarely added at all.
 - Mark timing advice as guidance, not rule. Mechanism: projects vary; the sources give typical order only.
@@ -40,13 +41,13 @@ Stance: frozen are a single source of truth, versioned records, and specs that d
 4. **Principles and style guide.** Shared priorities; colour, type, icons, components with states, layout and responsive rules, motion, accessibility.
 5. **Interaction patterns.** Navigation, input, feedback, microinteractions, transitions, in the project's own words.
 6. **Prototype notes.** Purpose, audience, scope, navigation, behaviour, feedback received and changes made.
-7. **Hand-off pack.** Final named screens, functional spec, copy, state matrix, specs tool link, open questions, a call with developers. Templates: [document-templates.md](references/document-templates.md).
+7. **Hand-off pack.** Final named screens, functional spec, copy, state matrix, specs tool link, open questions, a call with developers. A validated, user-tested prototype can stand in for part of the written spec if developers can open and interact with it directly; say so and still document the states and copy it does not show (error text, edge cases, accessibility names). Templates: [document-templates.md](references/document-templates.md).
 8. **Version.** Date, author and change summary on every release of the documents.
 
 ## Checklist (copy into the reply and tick as you go)
 
 ```text
-- [ ] Personas and flows reflect research, not guesses
+- [ ] Personas and flows reflect research, not guesses; any AI-drafted ones marked as unvalidated
 - [ ] Site map matches the built navigation
 - [ ] Every component has all states specified
 - [ ] Behaviour given per size class and at large text
